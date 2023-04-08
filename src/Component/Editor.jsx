@@ -31,9 +31,10 @@ function Editor() {
   // const [references, setReferences] = useState(false);
   // const [academic, setAcademic] = useState(false);
   // const [certificates, setCertificate] = useState(false);
-  return (
-    <div>
-      <Box sx={{ display: "flex", flexDirection: "row" }}>
+      return (
+        <div>
+      <Box sx={{ display: "flex", flexDirection: "row",alignItems:"center",
+            justifyContent:"center", }}>
         <Box
           sx={{
             width: 250,
@@ -129,7 +130,7 @@ function Editor() {
               <center>{activeComponent === 'image' && <Imageupload />}</center>
         </Box>
       </Box>
-    
+    <Resume />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 
 function Resume( props ) {
-// const {name, address,email,mobile,linkedin,github,skill}=props.inputData;
+//  const {name, address,email,mobile,linkedin,github,skill}=props.inputData || {};
 // console.log(data)
   return (
     <div>
@@ -29,14 +29,14 @@ function Resume( props ) {
             marginTop:2
           }}
           >
+          <h1>{props.inputData}</h1>
             </Box>
-          {/* <p>{props.inputData.name}</p> */}
-          <p>{props.inputData.address}</p>
-          <p>{props.inputData.email}</p>
-          <p>{props.inputData.mobile}</p>
-          <p>{props.inputData.linkedin}</p>
-          <p>{props.inputData.github} </p>
-          <h2>{props.inputData.skill}</h2>
+          <p>{props.Data.name}</p> 
+          <p>{props.Data.address}</p>
+          <p>{props.Data.email}</p>
+          <p>{props.Data.mobile}</p>
+          <p>{props.Data.linkedin}</p>
+          <p>{props.Data.github} </p>
         </Box>
         <Box
           sx={{

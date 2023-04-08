@@ -11,9 +11,9 @@ import Personal from './Component/personal'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <Component1/> */}
-    {/* <Editor/> */}
+    <Editor/>
     {/* <Image/> */}
     {/* <Personal/> */}
-    <Resume />
+    {/* <Resume /> */}
   </React.StrictMode>
 )

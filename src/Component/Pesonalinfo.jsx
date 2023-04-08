@@ -32,7 +32,7 @@ export default function Prsonalinfo() {
   const handleClick = () => {
     // Pass the inputData to another component
     console.warn({inputData});
-    return <Resume inputData={inputData}/>;
+    return <Resume Data={inputData}/>;
   };
 
   // React.useEffect(()=>{
@@ -117,7 +117,6 @@ export default function Prsonalinfo() {
     
       </Typography>
     </Card> 
-    <Resume inputData={inputData}/>
     </div>    
 
   );

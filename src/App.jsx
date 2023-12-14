@@ -1,14 +1,12 @@
 import { useState } from 'react'
-
+import Editor from './Component/Editor'
 
 function App() {
 
 
   return (
     <div className="App">
-      <div>
-<h1>Hello</h1>
-    </div>
+      <Editor />
     </div>
   )
 }

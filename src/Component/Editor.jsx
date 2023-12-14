@@ -22,15 +22,6 @@ function Editor() {
   const handleButtonClick = (componentName) => {
     setActiveComponent(componentName);
   }
-  
-
-  // const [openResume, setOpenResume] = useState(false);
-  // const [personalInfo, setPersonalInfo] = useState(false);
-  // const [technicalSkil, setTechnicalSkill] = useState(false);
-  // const [carrierObjective, setCarrierObjective] = useState(false);
-  // const [references, setReferences] = useState(false);
-  // const [academic, setAcademic] = useState(false);
-  // const [certificates, setCertificate] = useState(false);
       return (
         <div>
       <Box sx={{ display: "flex", flexDirection: "row",alignItems:"center",

@@ -9,6 +9,6 @@ import Personal from './Component/personal'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Editor/>
+    <App />
   </React.StrictMode>
 )
